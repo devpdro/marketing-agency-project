@@ -1,6 +1,4 @@
-
-
-function Navbar() {
+export const Navbar = () => {
   return (
     <nav className="bg-midnight">
       <div className="max-w-1280 mx-auto">
@@ -8,6 +6,4 @@ function Navbar() {
       </div>
     </nav>
   );
-}
-
-export default Navbar;
+};
